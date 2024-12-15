@@ -17,5 +17,6 @@ III.Edge extraction of the target point cloud from II, denoted as PC_edge_t.
 IV.Fitting the ground truth edge of the target plate to the current edge point cloud from III, denoted as gt_t.
 
 
-run: cd Release
-	Calib_1-4.exe ./data/1.png ./data/res_all.ply
+** Directly run**
+cd Release
+Calib_1-4.exe ./data/1.png ./data/res_all.ply
